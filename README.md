@@ -14,5 +14,5 @@ The run_analisys script excecute the following actions:
 12) by join, in single_df data set in incledet also the column from "activity_labels" that provides the description of the activity 
 13) change the single_df data frame measurements column names changing them to lower case and removing -, ( and ) characters. Single_df include now information about suject, a clear description of the activity, let measurements about mean and std dev labeled in a tidy and decriptive way
 14) create the aggregate_df dataset that contains the mean of each meuasurement for each activity and each subject
-15) write the CSV that contains the tidy data set
+15) write the txt that contains the tidy data set
 16) return a list of two data frame. The first data frame named "full" refers to the dataframe that include the test and train dataset merged and cleaned. The second data frame named "aggregated" refers to the dataframe descripted at list item 14, that includes the mean for each subject and activity about mean and std dev measurements
